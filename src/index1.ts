@@ -9,6 +9,7 @@ interface Reminder {
     completed: boolean;
 }
 
+
 class ReminderDatabase {
     private reminders: Map<string, Reminder>;
     private filename: string;
